@@ -7,7 +7,7 @@ class Conectar_db{
     private $host;
     private $banco;
     
-    public function __construct($pUsuario='root',$pSenha='Hyuuga91934963',$pHost='localhost',$pBanco='carro'){
+    public function __construct($pUsuario='root',$pSenha='',$pHost='localhost',$pBanco='carro'){
         $this->usuario = $pUsuario;
         $this->senha = $pSenha;
         $this->host = $pHost;
